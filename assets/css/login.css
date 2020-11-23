@@ -1,0 +1,114 @@
+/* page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+} 
+
+/* background, pink smokes */
+.hero-section {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+  /*background: linear-gradient(-180deg, rgb(252, 222, 222), rgb(238, 134, 134)); , just in case if image doesn't work */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* form/login box */
+form {
+  background: linear-gradient(140deg, rgba(251, 175, 175, 0.596),	rgba(180, 246, 248, 0.561));
+  border: 4px solid rgb(34, 33, 33);
+  border-radius: 15px;
+
+  min-height: 45vh;
+  min-width: 45vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* form(border removed) */
+fieldset {
+  border: none;
+  margin: auto;
+}
+
+/* my account */
+legend {
+  font-family: 'Quicksand', serif;
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+
+  margin-bottom: 2.5rem;
+}
+
+/* label input style */
+input {
+  font-size: 18px;
+
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(255, 242, 242);
+
+  margin-bottom: 1.5rem;
+  width: 100%;
+  padding: 1rem 3rem;
+}
+
+/* login button */
+button {
+  padding: 11px 22px; 
+  border: 1.5px solid white;
+  border-radius: 6px;
+  background-color: black;
+  
+  font-size: 22px;
+  font-family: 'Quicksand', serif;
+  color: rgb(246, 180, 184);
+
+  margin-top: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: rgb(255, 170, 183);
+}
+
+/* logo on the bottom */
+.bottom {
+  width: 200px;
+  margin-top: 250px;
+}
+
+/* media queries for mobile */
+@media (max-width: 800px) {
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+  }
+
+  form {
+    min-width: 95vw;
+    margin-top: 7rem;
+  }
+}

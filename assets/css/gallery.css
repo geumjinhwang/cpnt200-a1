@@ -1,0 +1,58 @@
+/* page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+} 
+
+/* background, pink smokes */
+.hero-section {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+  /*background: linear-gradient(-180deg, rgb(252, 222, 222), rgb(238, 134, 134)); , just in case if image doesn't work */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* page heading (our product) */
+h1 {
+  margin: 4rem 0 6rem 0;
+  
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 95px;
+  font-weight: 700;
+  color: rgb(23, 22, 22);
+  text-shadow: 4px 4px rgb(222, 129, 137);
+}
+
+/* image gallery */
+.gallery {
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  margin: auto;
+  max-width: 1400px;
+  padding: 0 1rem;
+}
+
+.bong-gallery {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+	justify-content: space-between;
+	padding: 0.5rem; 
+	max-width: 200px;
+}
+
+.gallery-photo {
+  max-width: 100%;
+}
+
+/* gallery image comments */
+figcaption {
+  font-size: 20px;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2px 2px rgb(252, 230, 230);
+  padding: 0.5rem;
+}
+
