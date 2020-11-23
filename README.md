@@ -2,7 +2,7 @@
 
 ## CPNT200 Assignment1: Static Website with PHP includes
 ### by *Jina Hwang*
-## [GitHub pages](https://geumjinhwang.github.io/cpnt200-a1/)
+## [GitHub Repo](https://github.com/geumjinhwang/cpnt200-a1))
 
 ### Atrributions
 - Tony's in-class tutorial helped a lot to understand this assignment and PHP.
